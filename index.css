@@ -1,51 +1,75 @@
 body {
-    background-image: url("https://images.unsplash.com/vector-1747747880687-ea6291e51dc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxpbGx1c3RyYXRpb25zLWZlZWR8NzZ8fHxlbnwwfHx8fHw%3D");
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin: 0;
+    background-color: #171f29;
+    height: 100vh;
+    width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    text-align: center;
-    letter-spacing: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .main{
+    padding: 40px 60px;
     max-width: 100%;
-}
-h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.heading{
-    font-size: 7vh;
-}
-
-h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
+    background-color:#1F2937;
+    min-width: 20%;
+    /* border: 1px solid #cccdcf; */
     border-radius: 5px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    line-height: 0.4;
+}
+.ran{
+    color: #10B981;
+}
+p{
+    color: white;
+    font-size:18px;
+}
+button{
+    color: white;
+    border: none;
+    width: 191px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #10B981;
+    margin-top:4vh;
+    margin-bottom: 5vh;
     cursor: pointer;
 }
-
-#increment-btn {
-    background: purple;
+button:hover{
+    background-color: #0ea170;
 }
-
-#save-btn {
-    background: yellow;
-    color: black;
-    border: 4px dotted blueviolet;
+.pass{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 15px;
 }
-#save-el{
-    color: white;
+.pass div{
+    width: 211px;
+    height: 39px;
+    border-radius: 5px;
+    background-color: #273549;
+    color: #55F991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    cursor: pointer;
 }
-
+.pass div:hover{
+    color: #9effc2;
+    background-color:#28364b;
+}
+hr{
+    /* font-size: 1px; */
+    height: 1px;
+    /* width: 98%; */
+    background-color: transparent;
+    border: 3px dotted rgba(255, 255, 255, 0.388);
+    opacity: 0.5;
+}
