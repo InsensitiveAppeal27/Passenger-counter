@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://images.unsplash.com/vector-1747747880687-ea6291e51dc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxpbGx1c3RyYXRpb25zLWZlZWR8NzZ8fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.main{
+    max-width: 100%;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.heading{
+    font-size: 7vh;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: purple;
+}
+
+#save-btn {
+    background: yellow;
+    color: black;
+    border: 4px dotted blueviolet;
+}
+#save-el{
+    color: white;
+}
+
